@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <title>murshidkm375</title>
@@ -16,7 +15,7 @@ body, html {
 }
 
 /* Create a Parallax Effect */
-.bgimg-1, .bgimg-2, .bgimg-3 {
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -41,6 +40,11 @@ body, html {
     min-height: 400px;
 
 }
+.bgimg-4{
+	background-image: url("oddly-satisfying-pics-8.gif");
+	 min-height: 400px;
+
+}
 a img::hover{background-color: 	#808080;}
 
 }
@@ -50,7 +54,7 @@ a img::hover{background-color: 	#808080;}
 
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
-    .bgimg-1, .bgimg-2, .bgimg-3 {
+    .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
         background-attachment: scroll;
     }
 }
@@ -63,9 +67,10 @@ a img::hover{background-color: 	#808080;}
     <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
       <i class="fa fa-bars"></i>
     </a>
-    <a href="#home" class="w3-bar-item w3-button">HOME</a>
+    <a href="#home" class="w3-bar-item w3-button"><i class="fa fa-home"></i>HOME</a>
     <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
     <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
+     <a href="#thoughts" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-exclamation"></i> THOUGHTS</a>
     <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
       <i class="fa fa-search"></i>
@@ -76,10 +81,12 @@ a img::hover{background-color: 	#808080;}
   <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
     <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
     <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+        <a href="#thoughts" class="w3-bar-item w3-button" onclick="toggleFunction()">THOUGHTS</a>
     <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
     <a href="#" class="w3-bar-item w3-button">SEARCH</a>
   </div>
 </div>
+
 
 <!-- First Parallax Image with Logo Text -->
 <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
@@ -232,7 +239,7 @@ in the field of computer science.
 <div class="w3-content w3-container w3-padding-64" id="portfolio">
 	 <h3 class="w3-center">MY TASKS</h3>
   <p class="w3-center"><em>click the image below to view task details</em></p><br>
-  <a href="https://drive.google.com/open?id=1uDovxROKdYeSkSFK107-nasWg64toMmq" class="w3-bar-item w3-button" align="center"><img src="download.png"  style="width:1000px;border:2px solid black;height:150px;"></a>
+  <a href="home.html" class="w3-bar-item w3-button" align="center"><img src="download.png"  style="width:1000px;border:2px solid black;height:150px;"></a>
 </div>
 
 
@@ -245,6 +252,14 @@ in the field of computer science.
     <p id="caption" class="w3-opacity w3-large"></p>
   </div>
 </div>
+<!--MY THOUGHTS-->
+<div class="bgimg-4 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide" id="thoughts">MY THOUGHTS</span>
+  </div>
+</div>
+<div class="w3-content w3-container w3-padding-64">
+	<p> We the Keralites are facing the biggest natural disaster we have ever seen and the destruction has not stopped yet.</p><hr style="border:0.5px solid black"></div>
 
 <!-- Third Parallax Image with Portfolio Text -->
 <div class="bgimg-3 w3-display-container w3-opacity-min">
