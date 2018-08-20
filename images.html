@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<title>images</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1 {font-family: "Montserrat", sans-serif}
+img {margin-bottom: -7px}
+.w3-row-padding img {margin-bottom: 12px}
+</style>
+<body>
+
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top" style="background-color:#42B24A;">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu" >
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="https://murshidkm.github.io/#home" class="w3-bar-item w3-button"><i class="fa fa-home"></i>HOME</a>
+    <a href="https://murshidkm.github.io/#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+    <a href="https://murshidkm.github.io/#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
+     <a href="https://murshidkm.github.io/#thoughts" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-exclamation"></i> THOUGHTS</a>
+    <a href="https://murshidkm.github.io/#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+      <i class="fa fa-search"></i>
+    </a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+        <a href="#thoughts" class="w3-bar-item w3-button" onclick="toggleFunction()">THOUGHTS</a>
+    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+    <a href="#" class="w3-bar-item w3-button">SEARCH</a>
+  </div>
+</div>
+<div><p> 
+<br></p></div><hr style="border:.5px solid black;">
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-content" style="max-width:1500px">
+
+<!-- Header -->
+<div class="w3-opacity">
+<span class="w3-button w3-xxlarge w3-white w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></span> 
+<div class="w3-clear"></div>
+<header class="w3-center w3-margin-bottom">
+  <h1><b>IMAGES</b></h1>
+  <p><b>Kerala flood 2018</b></p>
+  <p class="w3-padding-16"><button class="w3-button w3-black" onclick="myFunction()">Toggle Grid Padding</button></p>
+</header>
+</div>
+
+<!-- Photo Grid -->
+<div class="w3-row" id="myGrid" style="margin-bottom:128px">
+  <div class="w3-third">
+    <img src="images (2).jpg" style="width:100%">
+    <img src="images (1).jpg" style="width:100%">
+    <img src="1A705148087.jpg" style="width:100%">
+    <img src="Djfvk40BgmX4AATogz.jpg" style="width:100%">
+    <img src="flood-in-kerala_cacd9e48-9d1c-11e8-8838-278d266b5e3b.jpg" style="width:100%">
+    <img src="imaDges.jpg" style="width:100%">
+  </div>
+
+  <div class="w3-third">
+    <img src="images (3).jpg" style="width:100%">
+    <img src="images (4).jpg" style="width:100%">
+    <img src="images (5).jpg" style="width:100%">
+    <img src="images.jpg" style="width:100%">
+    <img src="iWdukki-ndma.jpg" style="width:100%">
+    <img src="keralafloods-759.jpg" style="width:100%">
+  </div>
+
+  <div class="w3-third">
+    <img src="kerala-hjeyewitness-accounts-from-bbc-reporters.jpg" style="width:100%">
+    <img src="Kerala-Kochi-Flood.jpg" style="width:100%">
+    <img src="images (6).jpg" style="width:100%">
+    <img src="download.jpg" style="width:100%">
+    <img src="qwiqweqweqwe-647x450.jpg" style="width:100%">
+    <img src="download (1).jpg" style="width:100%">
+  </div>
+</div>
+
+<!-- End Page Content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin-top:128px"> 
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p class="w3-medium"> by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">murshidkm375</a></p>
+</footer>
+ 
+<script>
+// Toggle grid padding
+function myFunction() {
+    var x = document.getElementById("myGrid");
+    if (x.className === "w3-row") {
+        x.className = "w3-row-padding";
+    } else { 
+        x.className = x.className.replace("w3-row-padding", "w3-row");
+    }
+}
+
+// Open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.width = "100%";
+    document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
