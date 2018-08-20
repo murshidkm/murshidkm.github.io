@@ -1,1 +1,2128 @@
+
+
+<!DOCTYPE html>
+<html>
+<title>murshidkm375</title>
+<head><meta charset="utf-8"><meta name="Description" content="For effective collaboration and communications between authorities, volunteers and public"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"><meta property="og:title" content="Kerala Rescue"><meta property="og:site_name" content="Kerala Rescue"><meta property="og:url" content="https://www.keralarescue.in/"><meta property="og:description" content="Help out those affected by the Kerala floods by donating or volunteering"><meta property="og:type" content="website"><meta property="og:image" content="/static/images/keralarescue.c9281ffebbe4.png"><title>Kerala Rescue</title><link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"><link rel="stylesheet" type="text/css" href="/static/css/style.3b2a5a145599.css"><link type="text/css" rel="stylesheet" charset="UTF-8" href="https://translate.googleapis.com/translate_static/css/translateelement.css"><script type="text/javascript" charset="UTF-8" src="https://translate.googleapis.com/translate_static/js/element/main.js"></script><script type="text/javascript" charset="UTF-8" src="https://translate.googleapis.com/element/TE_20180625_00/e/js/element/element_main.js"></script></head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url('IMG_20171113_232916_333.jpg');
+    min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+    background-image: url("IMG_8986-1.JPG");
+    min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+    background-image: url("IMG-20171219-WA0126.jpg");
+    min-height: 400px;
+
+}
+a img::hover{background-color: 	#808080;}
+
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top" style="background-color:#94D421;">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu" >
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="https://murshidkm.github.io/#home" class="w3-bar-item w3-button"><i class="fa fa-home"></i>HOME</a>
+    <a href="https://murshidkm.github.io/#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+    <a href="https://murshidkm.github.io/#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
+     <a href="https://murshidkm.github.io/#thoughts" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-exclamation"></i> THOUGHTS</a>
+    <a href="https://murshidkm.github.io/#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+      <i class="fa fa-search"></i>
+    </a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+        <a href="#thoughts" class="w3-bar-item w3-button" onclick="toggleFunction()">THOUGHTS</a>
+    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+    <a href="#" class="w3-bar-item w3-button">SEARCH</a>
+  </div>
+</div>
+
+
+<div class="text-center"><h4>Select District to see Relief Camps</h4></div>
+
+
+
+
+
 <form id="relief-comps-form" action="" method="get"><div class="form-group False"><label class="control-label" for="id_district">District</label><select name="district" class="form-control" title="" id="id_district"><option value="">---------</option><option value="alp" selected="">Alappuzha - ആലപ്പുഴ</option><option value="ekm">Ernakulam - എറണാകുളം</option><option value="idk">Idukki - ഇടുക്കി</option><option value="knr">Kannur - കണ്ണൂർ</option><option value="ksr">Kasaragod - കാസർഗോഡ്</option><option value="kol">Kollam - കൊല്ലം</option><option value="ktm">Kottayam - കോട്ടയം</option><option value="koz">Kozhikode - കോഴിക്കോട്</option><option value="mpm">Malappuram - മലപ്പുറം</option><option value="pkd">Palakkad - പാലക്കാട്</option><option value="ptm">Pathanamthitta - പത്തനംതിട്ട</option><option value="tvm">Thiruvananthapuram - തിരുവനന്തപുരം</option><option value="tcr">Thrissur - തൃശ്ശൂർ</option><option value="wnd">Wayanad - വയനാട്</option></select></div></form>
+
+
+
+
+
+
+<div><table class="table"><tbody><tr><th>District</th><th>Camp Name</th><th>Map</th><th>Address</th><th>Contact Numbers</th><th>Total People</th></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Aathma Vidya Sangham School, Kattil Market
+</td><td>
+N/A
+</td><td><p>Kattil Market, KV Jetty Road, Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+None
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+AB Vilasam HSS
+</td><td>
+N/A
+</td><td><p>Muhamma, Cherthala</p></td><td class="phone-links"><p></p></td><td>
+35
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Aimanam Veedu
+</td><td>
+N/A
+</td><td><p></p></td><td class="phone-links"><p></p></td><td>
+167
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+AKDS Ottappana
+</td><td>
+N/A
+</td><td><p></p></td><td class="phone-links"><p></p></td><td>
+200
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Akkamparmbil Colony
+</td><td>
+N/A
+</td><td><p></p></td><td class="phone-links"><p></p></td><td>
+42
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Akkarakkalam, Mullackal
+</td><td>
+N/A
+</td><td><p>Akkarakkalam, Mullackal</p></td><td class="phone-links"><p></p></td><td>
+255
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+AK School
+</td><td>
+N/A
+</td><td><p>Chengannur, Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+None
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Al Ameen ,Ambalappuzha
+</td><td>
+N/A
+</td><td><p>Ambalappuzha,Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+480
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Al Huda School,Vandanam,Alappuzha
+</td><td>
+N/A
+</td><td><p>Vandanam ,Ambalappuzha,Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+656
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Amayida LPS, Karumady
+</td><td>
+N/A
+</td><td><p>Amayida LPS, Karumady</p></td><td class="phone-links"><p></p></td><td>
+664
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Amayida LPS, Karumady
+</td><td>
+N/A
+</td><td><p>Amayida LPS, Karumady</p></td><td class="phone-links"><p></p></td><td>
+664
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Ambanakulangara Madrasa,Mannancherry
+</td><td>
+N/A
+</td><td><p>Ambanakulangara Madrasa,Mannancherry</p></td><td class="phone-links"><p>Girija-<a href="tel:9562113056">9562113056</a>,sindhu-<a href="tel:9495676506">9495676506</a></p></td><td>
+None
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Amrutha Vidyalaya Central School, Haripad
+</td><td>
+N/A
+</td><td><p>Haripad, Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+None
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Anandeswaram LPS
+</td><td>
+N/A
+</td><td><p></p></td><td class="phone-links"><p></p></td><td>
+301
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Anchal Thottappally
+</td><td>
+N/A
+</td><td><p></p></td><td class="phone-links"><p></p></td><td>
+490
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Angadickal South School, Chengannur
+</td><td>
+N/A
+</td><td><p>Chengannur, Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+None
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Anjalukkavu, Purakkad
+</td><td>
+N/A
+</td><td><p>Purakkad, Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+610
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+AN Puram, Mullackal
+</td><td>
+N/A
+</td><td><p>AN Puram, Mullackal</p></td><td class="phone-links"><p></p></td><td>
+282
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Apooru Juma Masjid,Komalapuram
+</td><td>
+N/A
+</td><td><p>Komalapuram,Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+733
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Apporu,Madrassa Palli,Mannancheery
+</td><td>
+N/A
+</td><td><p>Apporu,Madrassa Palli,North aryad P.O,Mannancheery</p></td><td class="phone-links"><p>shibi-<a href="tel:9497635903">9497635903</a></p></td><td>
+2942
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Aravukad HS
+</td><td>
+N/A
+</td><td><p></p></td><td class="phone-links"><p></p></td><td>
+1689
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Aravukad LPS
+</td><td>
+N/A
+</td><td><p></p></td><td class="phone-links"><p></p></td><td>
+None
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Aravukadu LPS
+</td><td>
+N/A
+</td><td><p>Cherthala</p></td><td class="phone-links"><p></p></td><td>
+174
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Areekkara LPS Kambissery
+</td><td>
+N/A
+</td><td><p>Areekkara LPS Kambissery , Kambissery.P.O , Vallikunnam</p></td><td class="phone-links"><p><a href="tel:9745181548">9745181548</a></p></td><td>
+97
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Aryad North U.P School,Mannancherry
+</td><td>
+N/A
+</td><td><p>Aryad North U.P School,North Aryad P.O,Mannancherry ,Alappuzha</p></td><td class="phone-links"><p>shiji-<a href="tel:9497635903">9497635903</a></p></td><td>
+1904
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+ASM LPS
+</td><td>
+N/A
+</td><td><p></p></td><td class="phone-links"><p></p></td><td>
+260
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Ayaparampu H S S
+</td><td>
+N/A
+</td><td><p>Ayaparampu, Haripad, alappuzha</p></td><td class="phone-links"><p></p></td><td>
+None
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Azheekkalchira, Mullacakal
+</td><td>
+N/A
+</td><td><p>Azheekkalchira, Mullacakal</p></td><td class="phone-links"><p></p></td><td>
+196
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Bappuji School , Cherumukham
+</td><td>
+N/A
+</td><td><p>Bappuji School , Cherumukham , Nooranad</p></td><td class="phone-links"><p><a href="tel:8547611714 ">8547611714 </a>,<a href="tel: 9446567426"> 9446567426</a></p></td><td>
+175
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Bethany School
+</td><td>
+N/A
+</td><td><p>Bethany Central School,Nangyarkulangara P O,Harippad</p></td><td class="phone-links"><p><a href="tel:9961904782">9961904782</a></p></td><td>
+500
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Bishop Hodges HSS mavelikara
+</td><td>
+N/A
+</td><td><p>Mavelikara</p></td><td class="phone-links"><p><a href="tel:9447365417 ">9447365417 </a>Aji</p></td><td>
+404
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Bishop Moor,Cherthala
+</td><td>
+N/A
+</td><td><p>Bishop Moore Vidyapith,Cherthala, Kerala 688524</p></td><td class="phone-links"><p><a href="tel:0478 259 2202">0478 259 2202</a></p></td><td>
+850
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Budhanoor HSS, Ennakkad
+</td><td>
+N/A
+</td><td><p>Budhanoor HSS, Ennakkad</p></td><td class="phone-links"><p></p></td><td>
+107
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Canal Bhagom
+</td><td>
+N/A
+</td><td><p></p></td><td class="phone-links"><p></p></td><td>
+480
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Carmel School , Mullackal
+</td><td>
+N/A
+</td><td><p>Carmel School , Mullackal</p></td><td class="phone-links"><p></p></td><td>
+120
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Catholic Church, Chengannur
+</td><td>
+N/A
+</td><td><p>Chengannur, Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+None
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Chenkilath (Govt. LPS, Kuttamperoor)
+</td><td>
+N/A
+</td><td><p>Chenkilath (Govt. LPS, Kuttamperoor)</p></td><td class="phone-links"><p></p></td><td>
+79
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Cheppad Panchayat Office
+</td><td>
+N/A
+</td><td><p>Cheppad gramapanchayath,Cheppad P O,Cheppad</p></td><td class="phone-links"><p><a href="tel:04792402264">04792402264</a>,<a href="tel:9496043741">9496043741</a></p></td><td>
+400
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Cherthala Kadakkarappally Kandamangalam Devaswam
+</td><td>
+N/A
+</td><td><p>Kadakkarappally, Kerala 688529</p></td><td class="phone-links"><p><a href="tel:9497799188">9497799188</a>- Thahasildar Cherthala<br><a href="tel:9495087874">9495087874</a>,<a href="tel:9037740265">9037740265</a>(BDO Pattanakkad)</p></td><td>
+1730
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Chirayil Thottappally
+</td><td>
+N/A
+</td><td><p></p></td><td class="phone-links"><p></p></td><td>
+150
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Christian College, Chengannur
+</td><td>
+N/A
+</td><td><p>Chengannur</p></td><td class="phone-links"><p></p></td><td>
+None
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+CKHS Cheppad
+</td><td>
+N/A
+</td><td><p>CKHS School,Cheppad P O,Cheppad</p></td><td class="phone-links"><p><a href="tel:9746673045">9746673045</a></p></td><td>
+350
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+CMS LPS, Idayadi
+</td><td>
+N/A
+</td><td><p>CMS LPS, Idayadi</p></td><td class="phone-links"><p></p></td><td>
+159
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+CMS LPS Komalloor
+</td><td>
+N/A
+</td><td><p>CMS LPS Komalloor , Komalloor.P.O , Chunakkara , Alappuzha</p></td><td class="phone-links"><p><a href="tel:9947796797">9947796797</a></p></td><td>
+111
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+CMS LPS Muhamma
+</td><td>
+N/A
+</td><td><p>Muhamma, Cherthala</p></td><td class="phone-links"><p></p></td><td>
+312
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Community Hall Edappon
+</td><td>
+N/A
+</td><td><p>Community Hall Edappon , Nooranad</p></td><td class="phone-links"><p><a href="tel:8547611714 ">8547611714 </a>,<a href="tel: 9446567426"> 9446567426</a></p></td><td>
+120
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+duplicate
+</td><td>
+N/A
+</td><td><p>Delete</p></td><td class="phone-links"><p></p></td><td>
+56
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+ED LPS, Mullackal
+</td><td>
+N/A
+</td><td><p>Mullakkal, Alappuzha, Kerala, Postal Code: 688011</p></td><td class="phone-links"><p></p></td><td>
+706
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Fathima matha School Kidangayam
+</td><td>
+N/A
+</td><td><p>Fathima matha School Kidangayam, Nooranad,Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+250
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+GHSS Perumbalam
+</td><td>
+N/A
+</td><td><p>Cherthala,Perumbalam P O</p></td><td class="phone-links"><p></p></td><td>
+581
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+GHSS, Thanneerkukkom
+</td><td>
+N/A
+</td><td><p>Cherthala</p></td><td class="phone-links"><p></p></td><td>
+157
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+GK Auditorium
+</td><td>
+N/A
+</td><td><p>GK Auditorium,Cheppad P O,Cheppad</p></td><td class="phone-links"><p><a href="tel:9947736002">9947736002</a>,<a href="tel:0479 2473627">0479 2473627</a>.</p></td><td>
+150
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+GLPS, Ayyappanchery
+</td><td>
+N/A
+</td><td><p>Cherthala</p></td><td class="phone-links"><p></p></td><td>
+94
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+GLPS ,Evoor North
+</td><td>
+N/A
+</td><td><p>GLPS ,Evoor North,Evoor PO,Pin:690553</p></td><td class="phone-links"><p><a href="tel:8281321152">8281321152</a></p></td><td>
+350
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+GLPS Kadakkarappally
+</td><td>
+N/A
+</td><td><p>Cherthala</p></td><td class="phone-links"><p></p></td><td>
+22
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+GLPS Maruthorvattom
+</td><td>
+N/A
+</td><td><p>Cherthala</p></td><td class="phone-links"><p></p></td><td>
+88
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+G L P S Pullikkanakku
+</td><td>
+N/A
+</td><td><p></p></td><td class="phone-links"><p></p></td><td>
+None
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+G L P S Pullikkanakku
+</td><td>
+N/A
+</td><td><p></p></td><td class="phone-links"><p></p></td><td>
+None
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+GLPS Ulavaipu
+</td><td>
+N/A
+</td><td><p>Cherthala</p></td><td class="phone-links"><p></p></td><td>
+117
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+GLPS Vayalar North
+</td><td>
+N/A
+</td><td><p>Cherthala</p></td><td class="phone-links"><p></p></td><td>
+353
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Goverment East L.P.SchoolCherthala
+</td><td>
+N/A
+</td><td><p>Cherthala,, Chakkarakulam, Cherthala, Kerala 688524</p></td><td class="phone-links"><p><a href="tel:0478 218 3619">0478 218 3619</a></p></td><td>
+628
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Government L.P.S. Kalarcodu
+</td><td>
+N/A
+</td><td><p>Kalarcodu</p></td><td class="phone-links"><p></p></td><td>
+352
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Govt. Boys HSS, Chengannur
+</td><td>
+N/A
+</td><td><p>Chengannur, Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+None
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Govt. Boys HSS, Haripad
+</td><td>
+N/A
+</td><td><p>Haripad, Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+None
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Govt.College,Ambalappuzha
+</td><td>
+N/A
+</td><td><p>Ambalappuzha,Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+3900
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Govt.Fishery's LP School Manappuram
+</td><td>
+N/A
+</td><td><p>Manappuram P O,Cherthala</p></td><td class="phone-links"><p></p></td><td>
+443
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Govt girls higher secondary school
+</td><td>
+N/A
+</td><td><p>Mavelikara</p></td><td class="phone-links"><p><a href="tel:9562455765 ">9562455765 </a>Rahul</p></td><td>
+123
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Govt HS Paravoor
+</td><td>
+N/A
+</td><td><p></p></td><td class="phone-links"><p></p></td><td>
+1200
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+GOVT.HSS, THEVARVATTOM POOCHAKKAL
+</td><td>
+N/A
+</td><td><p>Poochakkal P O,Cherthala</p></td><td class="phone-links"><p>mahesh-<a href="tel:9539927421">9539927421</a></p></td><td>
+267
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Govt.H S S Thirunalloor
+</td><td>
+N/A
+</td><td><p>Thirunalloor P O,Cherthala</p></td><td class="phone-links"><p></p></td><td>
+686
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Govt. ITI , Chengannur
+</td><td>
+N/A
+</td><td><p>Chengannur, Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+None
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Govt ITI MAVELIKARA
+</td><td>
+N/A
+</td><td><p>Mavelikara</p></td><td class="phone-links"><p><a href="tel:9447804225 ">9447804225 </a>Naven</p></td><td>
+114
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Govt ITI,UMBARNADU
+</td><td>
+N/A
+</td><td><p>Govt ITI,UMBARNADU</p></td><td class="phone-links"><p><a href="tel:9496305167">9496305167</a>-Sreejith,<a href="tel:9447956303">9447956303</a>-Biji</p></td><td>
+55
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Govt JBS, Cheriyanad
+</td><td>
+N/A
+</td><td><p>Govt JBS, Cheriyanad</p></td><td class="phone-links"><p></p></td><td>
+60
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Govt JBS, Pandanad
+</td><td>
+N/A
+</td><td><p>Govt JBS, Pandanad</p></td><td class="phone-links"><p></p></td><td>
+266
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Govt JTS Krishnapuram
+</td><td>
+N/A
+</td><td><p>Krishnapuram</p></td><td class="phone-links"><p></p></td><td>
+167
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Govt L P S, Ambalappuzha
+</td><td>
+N/A
+</td><td><p>Ambalappuzha,Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+290
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Govt.LPS Chathiyara
+</td><td>
+N/A
+</td><td><p>Govt.LPS Chathiyara , Chathiyara.P.O , Thamarakkulam,Alappuzha</p></td><td class="phone-links"><p><a href="tel:9496043730">9496043730</a></p></td><td>
+144
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Govt.LPSchool ottappunna
+</td><td>
+N/A
+</td><td><p>K R Puram P O,Cherthala</p></td><td class="phone-links"><p></p></td><td>
+396
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Govt L P School Ulavaippu
+</td><td>
+N/A
+</td><td><p>Cherthala</p></td><td class="phone-links"><p></p></td><td>
+610
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Govt LPS Elippakkulam
+</td><td>
+N/A
+</td><td><p>Govt LPS Elippakkulam , Elippakkulam.P.O , Vallikunnam,Alappuzha</p></td><td class="phone-links"><p><a href="tel:8893612391">8893612391</a></p></td><td>
+99
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Govt LPS, Kalarcodu
+</td><td>
+N/A
+</td><td><p>Govt LPS, Kalarcodu, Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+352
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Govt.LPS Kannanakuzhy
+</td><td>
+N/A
+</td><td><p>Govt.LPS Kannanakuzhy , Kannanakuzhy.P.O , Thamarakkulam</p></td><td class="phone-links"><p><a href="tel:9496043730">9496043730</a></p></td><td>
+289
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Govt. LPS, Mulakkuzha
+</td><td>
+N/A
+</td><td><p>Govt. LPS, Mulakkuzha</p></td><td class="phone-links"><p></p></td><td>
+30
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Govt LPS Pallikkal
+</td><td>
+N/A
+</td><td><p>Govt LPS Pallikkal , Pallikkal.P.O , Bharanikavu</p></td><td class="phone-links"><p><a href="tel:9496043728">9496043728</a></p></td><td>
+109
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Govt.LPS School ,Amayida
+</td><td>
+N/A
+</td><td><p>Govt.LPS School ,Amayida,Ambalappuzha</p></td><td class="phone-links"><p></p></td><td>
+None
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Govt L.P.S, Thiruvanvandoor
+</td><td>
+N/A
+</td><td><p>GOVT L P S TIRUVANVANDUR, THIRUVANVANDOOR, CHENGANNUR, ALAPPUZHA KERALA 689109</p></td><td class="phone-links"><p></p></td><td>
+None
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Govt UPS
+</td><td>
+N/A
+</td><td><p></p></td><td class="phone-links"><p></p></td><td>
+86
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Govt UPS
+</td><td>
+N/A
+</td><td><p></p></td><td class="phone-links"><p></p></td><td>
+66
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Govt. UPS Arookkutty
+</td><td>
+N/A
+</td><td><p>Arookkutty, Cherthala</p></td><td class="phone-links"><p></p></td><td>
+109
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Govt UPS Bharanikkavu
+</td><td>
+N/A
+</td><td><p>Govt UPS Bharanikkavu , Pallikkal.P.O , Bharanikkavu</p></td><td class="phone-links"><p><a href="tel:9496043728">9496043728</a></p></td><td>
+139
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Govt UPSchool Thycattussery
+</td><td>
+N/A
+</td><td><p>Thycattussery P O, Cherthala</p></td><td class="phone-links"><p></p></td><td>
+756
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Govt UPS Chunakkara
+</td><td>
+N/A
+</td><td><p>Govt UPS Chunakkara , Chunakkara.P.O , Alappuzha</p></td><td class="phone-links"><p><a href="tel:9495377944">9495377944</a></p></td><td>
+278
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Govt. UPS, Karthikappally
+</td><td>
+N/A
+</td><td><p>Karthikappally, Haripad</p></td><td class="phone-links"><p></p></td><td>
+None
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Govt UPS Mahadevikatu
+</td><td>
+N/A
+</td><td><p>Mahadevikatu po,karthikappally 690516</p></td><td class="phone-links"><p><a href="tel:9496043696">9496043696</a>-jimmi v kaippally,<a href="tel:9947484992 ">9947484992 </a>ajithkumar</p></td><td>
+147
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Gramam UPS, Ennakkad
+</td><td>
+N/A
+</td><td><p>Gramam UPS, Ennakkad</p></td><td class="phone-links"><p></p></td><td>
+67
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+GSM LPS Pulimel
+</td><td>
+N/A
+</td><td><p>GSM LPS Pulimel , Nooranad.P.O</p></td><td class="phone-links"><p><a href="tel:8547611714">8547611714</a></p></td><td>
+50
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Gurumandiram, Mullackal
+</td><td>
+N/A
+</td><td><p>Gurumandiram, Mullackal</p></td><td class="phone-links"><p></p></td><td>
+94
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Hi Care Hospital,Muttom
+</td><td>
+N/A
+</td><td><p>Hi care hospital ,Cheppad P O,Muttom</p></td><td class="phone-links"><p><a href="tel:04792401425">04792401425</a></p></td><td>
+75
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Hidayathul Islam Madrassa Hall, Vandikappally
+</td><td>
+N/A
+</td><td><p>Vandikappally, Muthukulam, Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+None
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Holly Family L P S, Aryad
+</td><td>
+N/A
+</td><td><p>Aryad South, Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+1071
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Holy Family Higher Secondary School cherthala
+</td><td>
+N/A
+</td><td><p>Muttom, Alappuzha District, Cherthala, Kerala 688524</p></td><td class="phone-links"><p><a href="tel:0478 281 3388">0478 281 3388</a></p></td><td>
+729
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Holy Trinity Central School
+</td><td>
+N/A
+</td><td><p>Holy Trinity Central School,Karthikappally P O,Chingoli</p></td><td class="phone-links"><p><a href="tel:9497777911">9497777911</a></p></td><td>
+500
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+House of bijimol Purakkad
+</td><td>
+N/A
+</td><td><p></p></td><td class="phone-links"><p></p></td><td>
+520
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+House of Kalathil Sasi,Komalapuram
+</td><td>
+N/A
+</td><td><p>Komalapuram,Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+603
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+HSS Padanilam
+</td><td>
+N/A
+</td><td><p>HSS Padanilam , Padanilam.P.O,Nooranad</p></td><td class="phone-links"><p><a href="tel:8547611714 ">8547611714 </a>,<a href="tel:9446567426">9446567426</a></p></td><td>
+240
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+HSS, Thiruvampadi
+</td><td>
+N/A
+</td><td><p>HSS THIRUVAMPADI, PAZHAVEEDU, AMBALAPPUZHA, ALAPPUZHA, KERALA 688009</p></td><td class="phone-links"><p></p></td><td>
+1226
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Huda Trust School , Danappady
+</td><td>
+N/A
+</td><td><p>Danappady, Kumarapuram, Haripad, Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+155
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+ICDP Sub Centre , Komalloor
+</td><td>
+N/A
+</td><td><p>ICDP Sub Centre , Komalloor , komalloor.P.O , Chunakkara</p></td><td class="phone-links"><p><a href="tel:9495577419">9495577419</a></p></td><td>
+27
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+IHRD College, Chengannur
+</td><td>
+N/A
+</td><td><p>Chengannur, Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+None
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Ijaba Madrasa Hall,Vandanam
+</td><td>
+N/A
+</td><td><p>Vandanam,Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+180
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Irshad Mosqu
+</td><td>
+N/A
+</td><td><p></p></td><td class="phone-links"><p></p></td><td>
+None
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+JBS Punthala
+</td><td>
+N/A
+</td><td><p>JBS Punthala , Chengannoor . P.O , Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+None
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+JBS Venmoney
+</td><td>
+N/A
+</td><td><p>JBS Venmoney , Venmoney.P.O , Chengannoor</p></td><td class="phone-links"><p></p></td><td>
+None
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Juma masjith
+</td><td>
+N/A
+</td><td><p>Juma masjith,puthukkulam,karthikappally,690516</p></td><td class="phone-links"><p><a href="tel:9496157309">9496157309</a></p></td><td>
+83
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Jyothi Nikethan School Punnapra
+</td><td>
+N/A
+</td><td><p>Punnapra, Alappuzha, Kerala 688003</p></td><td class="phone-links"><p><a href="tel:8921958737">8921958737</a><br>Suma<br>Thahasildar(LANH)<br>Alappuzha</p></td><td>
+228
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Kaippallibhagam Anganawady
+</td><td>
+N/A
+</td><td><p>Kaippallibhagam Anganawady , Vallikunnam , Alappuzha</p></td><td class="phone-links"><p><a href="tel:9544157165">9544157165</a></p></td><td>
+21
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Kakkazham Govt.H S S , Ambalappuzha
+</td><td>
+N/A
+</td><td><p>Ambalappuzha ,Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+1019
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Kalarikkal Veedu,Ward VII
+</td><td>
+N/A
+</td><td><p>Kalarikkal Veedu,Ward VII,Cheppad P O,Cheppad</p></td><td class="phone-links"><p><a href="tel:9497788144">9497788144</a></p></td><td>
+150
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Kalathipalam S.N.D.P.
+</td><td>
+N/A
+</td><td><p>Karumady</p></td><td class="phone-links"><p></p></td><td>
+798
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Kalavoor G H S S,Alappuzha
+</td><td>
+N/A
+</td><td><p>Komalapuram,Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+899
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Kalavoor L.P School,Mannancheery
+</td><td>
+N/A
+</td><td><p>Kalavoor L.P School,Kalavor.Mannancheery</p></td><td class="phone-links"><p></p></td><td>
+None
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Kambanichira, Mullackal
+</td><td>
+N/A
+</td><td><p>Kambanichira, Mullackal</p></td><td class="phone-links"><p></p></td><td>
+98
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Kanakara HS
+</td><td>
+N/A
+</td><td><p>Cherthala</p></td><td class="phone-links"><p></p></td><td>
+373
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Kandiyur UPS
+</td><td>
+N/A
+</td><td><p>Kandiyur</p></td><td class="phone-links"><p><a href="tel:9961828967">9961828967</a>-Jayasree,<a href="tel:8848142328">8848142328</a>-umayamma,<a href="tel:9446139806">9446139806</a>-Latha</p></td><td>
+714
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Kanichukulangara Auditorium &amp;Chikkara Kottilukal
+</td><td>
+N/A
+</td><td><p>Kanichukulangara, Mararikkulam North, Kerala 688530</p></td><td class="phone-links"><p><a href="tel:94497799188">94497799188</a>- Thahasildar Cherthala</p><p><a href="tel:9495087874">9495087874</a>,<a href="tel:9037740265">9037740265</a></p></td><td>
+2500
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Kanichukulangara Devaswam School.
+</td><td>
+N/A
+</td><td><p>Kanichukulangara, Mararikkulam North, Kerala 688530</p></td><td class="phone-links"><p><a href="tel:9497799188">9497799188</a><br>Abdul Rasheed<br>Thahasildar Cherthala</p></td><td>
+0
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Karayogam UPS, Kurattissery
+</td><td>
+N/A
+</td><td><p>Karayogam UPS, Kurattissery</p></td><td class="phone-links"><p></p></td><td>
+236
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Karthikappaly UPS
+</td><td>
+N/A
+</td><td><p></p></td><td class="phone-links"><p></p></td><td>
+60
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+KE Carmel
+</td><td>
+N/A
+</td><td><p>Muhamma, Kerala 688525</p></td><td class="phone-links"><p><a href="tel:0478 286 4430">0478 286 4430</a></p></td><td>
+1955
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Keltron Centre
+</td><td>
+N/A
+</td><td><p></p></td><td class="phone-links"><p></p></td><td>
+58
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Kizhakkenada UPS, Chengannur
+</td><td>
+N/A
+</td><td><p>Chengannur, Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+None
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+K.Kunjupillai Memorial G.H.S.S,Ambalappuzha
+</td><td>
+N/A
+</td><td><p>K.Kunjupillai Memorial ,G.H.S.S,Ambalappuzha</p></td><td class="phone-links"><p>Village officer-<a href="tel:8547612102">8547612102</a></p></td><td>
+None
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Knanaya Church, Kallissery
+</td><td>
+N/A
+</td><td><p>Kallissery, Chengannur, Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+None
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Knanaya Church, Mazhukkeer
+</td><td>
+N/A
+</td><td><p>Mazhukkeer, Chengannur, Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+None
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Kommady C. M. L .P. S,Aryad
+</td><td>
+N/A
+</td><td><p>Aryad South,Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+202
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Koonathum Parambu
+</td><td>
+N/A
+</td><td><p>Koonathum Parambu</p></td><td class="phone-links"><p></p></td><td>
+210
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Koratty Karoor
+</td><td>
+N/A
+</td><td><p></p></td><td class="phone-links"><p></p></td><td>
+400
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Kottamkulangara Govt H S S,Aryad
+</td><td>
+N/A
+</td><td><p>Aryad South,Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+1447
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Kottamkulangara Govt.L.P. S,Aryad
+</td><td>
+N/A
+</td><td><p>Aryad South,Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+593
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Kottaravalavu
+</td><td>
+N/A
+</td><td><p>Kottaravalavu,Purakkad</p></td><td class="phone-links"><p></p></td><td>
+510
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Kovilparambu
+</td><td>
+N/A
+</td><td><p>Kovilparambu,Purakkad</p></td><td class="phone-links"><p></p></td><td>
+225
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+KPMS Building , Cherumukham
+</td><td>
+N/A
+</td><td><p>KPMS Building , Cherumukham, Nooranad</p></td><td class="phone-links"><p><a href="tel:8547611714 ">8547611714 </a>,<a href="tel: 9496567426"> 9496567426</a></p></td><td>
+50
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+KPS Piralasseri
+</td><td>
+N/A
+</td><td><p>KPS Piralasseri , Piralasseri.P.O , Chengannoor.</p></td><td class="phone-links"><p></p></td><td>
+None
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Kudassanad LPS
+</td><td>
+N/A
+</td><td><p>Kudassanad LPS,Palamel, Alappuzha, Kerala, Postal Code: 689512 India</p></td><td class="phone-links"><p><a href="tel:8086844042">8086844042</a></p></td><td>
+215
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Kunnel subhramanya temple
+</td><td>
+N/A
+</td><td><p></p></td><td class="phone-links"><p></p></td><td>
+620
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Layola Hall,Kalavoor
+</td><td>
+N/A
+</td><td><p>Kalavoor,Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+145
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Lecture Hall,Ambalappuzha North
+</td><td>
+N/A
+</td><td><p>Ambalappuzha North Gp, Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+48
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Little flower
+</td><td>
+N/A
+</td><td><p></p></td><td class="phone-links"><p></p></td><td>
+296
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+LPS Anandeswaram
+</td><td>
+N/A
+</td><td><p>LPS Anandeswaram,Purakkad</p></td><td class="phone-links"><p></p></td><td>
+425
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+LPS Anandeswaram, Purakkad
+</td><td>
+N/A
+</td><td><p>Purakkad,Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+425
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+LPS Cherumukham
+</td><td>
+N/A
+</td><td><p>LPS Cherumukham , Nooranad</p></td><td class="phone-links"><p><a href="tel:8547611714 ">8547611714 </a>,<a href="tel: 9446567426"> 9446567426</a></p></td><td>
+150
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+LPS Kuthirakettumthadam
+</td><td>
+N/A
+</td><td><p>LPS Kuthirakettumthadam , Nooranad , Alappuzha</p></td><td class="phone-links"><p><a href="tel:8547611714">8547611714</a></p></td><td>
+400
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+LPS Luthermission, Muhamma
+</td><td>
+N/A
+</td><td><p>Cherthala</p></td><td class="phone-links"><p></p></td><td>
+48
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+LPS Peringala
+</td><td>
+N/A
+</td><td><p></p></td><td class="phone-links"><p></p></td><td>
+None
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+L P S Thevalappuram
+</td><td>
+N/A
+</td><td><p></p></td><td class="phone-links"><p></p></td><td>
+133
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+LRS School, Angadickal (Malayil)
+</td><td>
+N/A
+</td><td><p>Angadickal, Chengannur, Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+None
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Lutheran school,Komalapuram
+</td><td>
+N/A
+</td><td><p>Komalapuram,Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+403
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Machadu Colony,Mannancherry
+</td><td>
+N/A
+</td><td><p>Machadu Colony,ward 17,Mannancherry</p></td><td class="phone-links"><p>seena-<a href="tel:9846413668">9846413668</a>Remya .K. Raju-<a href="tel:8281164848">8281164848</a></p></td><td>
+None
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Machanattu Colony,Komalapuram
+</td><td>
+N/A
+</td><td><p>Komalapuram,Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+385
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Madathilparambu, Mullackal
+</td><td>
+N/A
+</td><td><p>Madathilparambu, Mullackal</p></td><td class="phone-links"><p></p></td><td>
+501
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Madhavath
+</td><td>
+N/A
+</td><td><p></p></td><td class="phone-links"><p></p></td><td>
+263
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Mahakavi Kumaranasan Memmorial HSS, Pallana
+</td><td>
+N/A
+</td><td><p>Pallana P O, Thrikkunnappuzha</p></td><td class="phone-links"><p></p></td><td>
+None
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Malsya society
+</td><td>
+N/A
+</td><td><p></p></td><td class="phone-links"><p></p></td><td>
+1000
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+MAM LPS Poochackal
+</td><td>
+N/A
+</td><td><p>Cherthala</p></td><td class="phone-links"><p></p></td><td>
+157
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Mannancherry Govt.H.S,Mannancherry
+</td><td>
+N/A
+</td><td><p>Mannancherry Govt.H.S,Mannancheery p.O,Mannancherry,Alappuzha</p></td><td class="phone-links"><p>Thankamony-<a href="tel:9446465569">9446465569</a>,Swapna-<a href="tel:7025556478">7025556478</a></p></td><td>
+None
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Mannarassala UPS
+</td><td>
+N/A
+</td><td><p>Mannarassala, Haripad, Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+None
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Marthoma Church
+</td><td>
+N/A
+</td><td><p>Marthoma Church,Purakkad</p></td><td class="phone-links"><p></p></td><td>
+410
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Marthoma Church, Chengannur
+</td><td>
+N/A
+</td><td><p>Chengannur, Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+None
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Marthoma Church , Iranikkudi
+</td><td>
+N/A
+</td><td><p>Marthoma Church , Iranikkudi , Nooranad</p></td><td class="phone-links"><p><a href="tel:8547611714">8547611714</a>,<a href="tel:9446567426">9446567426</a></p></td><td>
+75
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Marthoma Hall
+</td><td>
+N/A
+</td><td><p>Chengannur, Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+None
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Marthomappally,Mullackal
+</td><td>
+N/A
+</td><td><p>Mullackal,Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+138
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Mary Memorial Anganawady
+</td><td>
+N/A
+</td><td><p>Mary Memorial Anganawady , Vallikunnam, Alappuzha</p></td><td class="phone-links"><p><a href="tel:9544157165">9544157165</a></p></td><td>
+25
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Mattam st johns
+</td><td>
+N/A
+</td><td><p>Mattam st Johns school</p></td><td class="phone-links"><p><a href="tel:9656374043 ">9656374043 </a>-valsala</p></td><td>
+19
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Mattam st johns
+</td><td>
+N/A
+</td><td><p>Mattam st Johns school</p></td><td class="phone-links"><p><a href="tel:9656374043 ">9656374043 </a>-valsala</p></td><td>
+49
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Mazhukkeer School
+</td><td>
+N/A
+</td><td><p>Mazhukkeer, Chengannur, Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+None
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+MD LPS, Pavukkara
+</td><td>
+N/A
+</td><td><p>MD LPS, Pavukkara</p></td><td class="phone-links"><p></p></td><td>
+435
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+MMAR School, Chengannur
+</td><td>
+N/A
+</td><td><p>Chengannur, Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+None
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+M.M.A School Chathanadu
+</td><td>
+N/A
+</td><td><p>M.M.A School<br>Near N.C John &amp;company<br>Thondankulangara</p></td><td class="phone-links"><p><a href="tel:8547612201">8547612201</a><br>P.G Manoharan<br>Thahasildar (LR)</p></td><td>
+120
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+MMK LPS Pathiyookala
+</td><td>
+N/A
+</td><td><p>Pathiyoorkala M M K M LPS, Pathiyoorkala,Pathiyoor Keerikad. P.O. ‐ 690 508</p></td><td class="phone-links"><p><a href="tel:9496772786">9496772786</a></p></td><td>
+1250
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+MMVM UPS Thamallackal
+</td><td>
+N/A
+</td><td><p>MMVM UPS , Thamallackal P O, Haripad, Alappuzha, pin-690548</p></td><td class="phone-links"><p>Sreelatha (Ward Member) -<a href="tel: 9747180220"> 9747180220</a></p></td><td>
+800
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+MPLPS Puthenkavu
+</td><td>
+N/A
+</td><td><p>MPLPS Puthenkavu ,Mulakkuzha, Chengannoor</p></td><td class="phone-links"><p></p></td><td>
+None
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+M S seminari school thazhakkara
+</td><td>
+N/A
+</td><td><p>Thazhakkara</p></td><td class="phone-links"><p><a href="tel:9446116916 ">9446116916 </a>Binu,<a href="tel:9961262311 ">9961262311 </a>mohan c</p></td><td>
+202
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Mukkolakkal, Mullackal
+</td><td>
+N/A
+</td><td><p>Mukkolakkal, Mullackal</p></td><td class="phone-links"><p></p></td><td>
+486
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Municipal Office, Chengannur
+</td><td>
+N/A
+</td><td><p>Chengannur, Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+None
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Muriyamood LPS
+</td><td>
+N/A
+</td><td><p>Muriyamood LPS,Muttom P O,Harippad,Pin: 690511</p></td><td class="phone-links"><p><a href="tel:9400878167">9400878167</a></p></td><td>
+208
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Muslim UPS
+</td><td>
+N/A
+</td><td><p></p></td><td class="phone-links"><p></p></td><td>
+1002
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Muthiraparambu
+</td><td>
+N/A
+</td><td><p>Muthiraparambu,Purakkad</p></td><td class="phone-links"><p></p></td><td>
+240
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Muttom LPS
+</td><td>
+N/A
+</td><td><p>Muttom LPS,Muttom P O,Harippad</p></td><td class="phone-links"><p><a href="tel:9895619515">9895619515</a></p></td><td>
+200
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Naadaruchira Mullackal
+</td><td>
+N/A
+</td><td><p>Naadaruchira, Mullackal</p></td><td class="phone-links"><p></p></td><td>
+135
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Naaluchira, Mullackal
+</td><td>
+N/A
+</td><td><p>Naaluchira, Mullackal</p></td><td class="phone-links"><p></p></td><td>
+139
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Naluchira East and west
+</td><td>
+N/A
+</td><td><p>Naluchira east and west,Purakkad</p></td><td class="phone-links"><p></p></td><td>
+900
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Naluchira govt school
+</td><td>
+N/A
+</td><td><p>Naluchira govt school,Purakkad</p></td><td class="phone-links"><p></p></td><td>
+630
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Naluchira Govt.School, Purakkad
+</td><td>
+N/A
+</td><td><p>Purakkad,Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+630
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Naluthengil Mukundan House
+</td><td>
+N/A
+</td><td><p></p></td><td class="phone-links"><p></p></td><td>
+300
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Nedumbrakkad Govt UP school
+</td><td>
+N/A
+</td><td><p>CMC-8, Cherthala - Thavanakkadavu Rd, Kodathikavala, Nedumprakkad, Kerala 688524</p></td><td class="phone-links"><p>shajahan-<a href="tel: 9846148151"> 9846148151</a></p></td><td>
+1384
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Nehrujetty, Mullackal
+</td><td>
+N/A
+</td><td><p>Nehrujetty, Mullackal</p></td><td class="phone-links"><p></p></td><td>
+193
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Nehru Trophy Ward- Irland, Mullackal
+</td><td>
+N/A
+</td><td><p>Nehru Trophy Ward- Irland, Mullackal</p></td><td class="phone-links"><p></p></td><td>
+121
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Nehru Trophy Ward-Kochuparambu, Mullackal
+</td><td>
+N/A
+</td><td><p>Nehru Trophy Ward-Kochuparambu, Mullackal</p></td><td class="phone-links"><p></p></td><td>
+124
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Nehru Trophy Ward SNDP, Mullackal
+</td><td>
+N/A
+</td><td><p>Nehru Trophy Ward SNDP, Mullackal</p></td><td class="phone-links"><p></p></td><td>
+276
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+New LPS Karoor
+</td><td>
+N/A
+</td><td><p></p></td><td class="phone-links"><p></p></td><td>
+260
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Nirmala Jyothi Pre School
+</td><td>
+N/A
+</td><td><p>Cherthala</p></td><td class="phone-links"><p></p></td><td>
+522
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+North Aryad Gov.UPS,Komalapuram
+</td><td>
+N/A
+</td><td><p>Komalapuram,Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+898
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+NSS Auditorium, Ericacu
+</td><td>
+N/A
+</td><td><p>Erikavu, Kumarapuram, Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+1412
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+NSS Boys HSS, Karuvatta
+</td><td>
+N/A
+</td><td><p>Karuvatta, Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+None
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+NSS college Cherthala
+</td><td>
+N/A
+</td><td><p>KR Puram P O,Cherthala</p></td><td class="phone-links"><p></p></td><td>
+409
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+NSS Girls High School, Karuvatta
+</td><td>
+N/A
+</td><td><p>Karuvatta, Alappuzha</p></td><td class="phone-links"><p>Sobha-<a href="tel:8547067474 ">8547067474 </a>(Ward Member)</p></td><td>
+None
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+NSS LPS Chunakkara South
+</td><td>
+N/A
+</td><td><p>NSS LPS Chunakkara South , Chunakkara.P.O , Charummood</p></td><td class="phone-links"><p><a href="tel:9495968811">9495968811</a></p></td><td>
+87
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+NSS LPS, Sreekandamangalam
+</td><td>
+N/A
+</td><td><p>Cherthala</p></td><td class="phone-links"><p></p></td><td>
+677
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+O L F School, Aryad
+</td><td>
+N/A
+</td><td><p>Aryad South,Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+256
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Our Lady of Mercy HSS, Chandiroor
+</td><td>
+N/A
+</td><td><p>Chandiroor, Cherthala</p></td><td class="phone-links"><p></p></td><td>
+11
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Palluveli UPSchool
+</td><td>
+N/A
+</td><td><p>pallippuram P O ,Cherthala</p></td><td class="phone-links"><p></p></td><td>
+214
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Panchayat Community Hall, Kannikadu
+</td><td>
+N/A
+</td><td><p>Cherthala, Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+82
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Panchayat Community Hall, Puliyoor
+</td><td>
+N/A
+</td><td><p>Panchayat Community Hall, Puliyoor, Chengannoor, Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+12
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Pandavanpara Community Hall
+</td><td>
+N/A
+</td><td><p>Pandavanpara, Chengannur, Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+None
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Pandavathoppu
+</td><td>
+N/A
+</td><td><p>Pandavathoppu</p></td><td class="phone-links"><p></p></td><td>
+670
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Parambil Temple South,Purakkad
+</td><td>
+N/A
+</td><td><p>Purakkad,Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+650
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Parappil,Mannacherry
+</td><td>
+N/A
+</td><td><p>Parappil,Mannancherry P.O,Mannacherry</p></td><td class="phone-links"><p></p></td><td>
+None
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Parish Hall, Perissery
+</td><td>
+N/A
+</td><td><p>Perissery, Chengannur, Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+None
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Pathiyoor HS
+</td><td>
+N/A
+</td><td><p>Pathiyoor HS,Keerikkad P O,Pathiyoor</p></td><td class="phone-links"><p><a href="tel:0479 2435188">0479 2435188</a></p></td><td>
+2507
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Pattande parambu
+</td><td>
+N/A
+</td><td><p></p></td><td class="phone-links"><p></p></td><td>
+200
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Payalkulangara Temple,Purakkad
+</td><td>
+N/A
+</td><td><p>Purakkad,Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+600
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Pazhayachira Thottappally
+</td><td>
+N/A
+</td><td><p></p></td><td class="phone-links"><p></p></td><td>
+180
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Pennukkara
+</td><td>
+N/A
+</td><td><p></p></td><td class="phone-links"><p></p></td><td>
+None
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+P H C Centre Thottappally
+</td><td>
+N/A
+</td><td><p>Thottappally,Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+800
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+PH Centre Thottappally
+</td><td>
+N/A
+</td><td><p></p></td><td class="phone-links"><p></p></td><td>
+800
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+PHC Vallikunnam/IKS Kondodimukal
+</td><td>
+N/A
+</td><td><p>PHC Vallikunnam/IKS Kondodimukal , Vallikunnam,Alappuzha</p></td><td class="phone-links"><p><a href="tel:9495118556">9495118556</a></p></td><td>
+41
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Pilgrim Centre, Kanichukulangara
+</td><td>
+N/A
+</td><td><p>Cherthala</p></td><td class="phone-links"><p></p></td><td>
+36
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+PMD UPS Cheppad
+</td><td>
+N/A
+</td><td><p>PMD UPS Cheppad ,Cheppad P O,Cheppad</p></td><td class="phone-links"><p><a href="tel:8078327350">8078327350</a></p></td><td>
+200
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Ponnadu L.P School,Mannancherry
+</td><td>
+N/A
+</td><td><p>Ponnadu L.P School,Ponnad P.O,Mannancherry,Alappuzha</p></td><td class="phone-links"><p>Suresh-<a href="tel:9400204148">9400204148</a>,Rathi devi-<a href="tel:9961752760">9961752760</a></p></td><td>
+None
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Poonthoppu Govt.L.P.S, Aryad
+</td><td>
+N/A
+</td><td><p>Aryad South, Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+161
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Poonthottam LPS
+</td><td>
+N/A
+</td><td><p></p></td><td class="phone-links"><p></p></td><td>
+184
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Poothoppu
+</td><td>
+N/A
+</td><td><p></p></td><td class="phone-links"><p></p></td><td>
+285
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Premetric Hostel
+</td><td>
+N/A
+</td><td><p></p></td><td class="phone-links"><p></p></td><td>
+898
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Premetric Hostel, Karumady
+</td><td>
+N/A
+</td><td><p>Premetric Hostel, Karumady</p></td><td class="phone-links"><p></p></td><td>
+898
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Puliyoor Church
+</td><td>
+N/A
+</td><td><p>Puliyoor, Chengannur, Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+None
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Punnapra JB School
+</td><td>
+N/A
+</td><td><p></p></td><td class="phone-links"><p></p></td><td>
+913
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Puthampuram
+</td><td>
+N/A
+</td><td><p></p></td><td class="phone-links"><p></p></td><td>
+160
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Puthenparambil
+</td><td>
+N/A
+</td><td><p></p></td><td class="phone-links"><p></p></td><td>
+636
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Railway Station, Chengannur
+</td><td>
+N/A
+</td><td><p>Chengannur, Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+None
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Samskarikanilayam, Elanjimel
+</td><td>
+N/A
+</td><td><p>Samskarikanilayam, Elanjimel</p></td><td class="phone-links"><p></p></td><td>
+73
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Santhi Hospital , Attuva
+</td><td>
+N/A
+</td><td><p>Santhi Hospital , Attuva , Nooranad</p></td><td class="phone-links"><p><a href="tel:8547611714">8547611714</a></p></td><td>
+150
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+SDV Boys School Alappuzha
+</td><td>
+N/A
+</td><td><p>Sanathanam Ward, Alappuzha, Kerala 688001</p></td><td class="phone-links"><p><a href="tel:9400510739">9400510739</a><br>Anilkumar<br>Thahasildar (RR)<br>Ambalappuzha</p></td><td>
+620
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+SDV Central School Alappuzha
+</td><td>
+N/A
+</td><td><p>Sanathanam Ward, Alappuzha, Kerala 688001</p></td><td class="phone-links"><p><a href="tel:8547611901">8547611901</a>(RavindraNatha Panicker-Thahasildar Kuttanad(LR) )</p></td><td>
+365
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+S D V Chira, Mullackal
+</td><td>
+N/A
+</td><td><p>S D V Chira, Mullackal</p></td><td class="phone-links"><p></p></td><td>
+389
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+SDV JBS Alappuzha
+</td><td>
+N/A
+</td><td><p>Kidangamparamp, Thondankulangara, Thathampally, Alappuzha, Kerala 688013</p></td><td class="phone-links"><p><a href="tel:8547611901">8547611901</a><br>Ravindra natha Panicker<br>Thahasildar(LR)<br>Kuttanad</p></td><td>
+316
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+SDV UPS Annaimadam1
+</td><td>
+N/A
+</td><td><p></p></td><td class="phone-links"><p></p></td><td>
+974
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+SDV UPS Annaimadam2
+</td><td>
+N/A
+</td><td><p></p></td><td class="phone-links"><p></p></td><td>
+437
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+SKVUPS ,Evoor North
+</td><td>
+N/A
+</td><td><p>SKVUPS ,Evoor North,Cheppad P O,Harippad,Pin- 690507</p></td><td class="phone-links"><p><a href="tel:8281321152">8281321152</a></p></td><td>
+450
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Smasanam Bhagam Thottappally
+</td><td>
+N/A
+</td><td><p></p></td><td class="phone-links"><p></p></td><td>
+220
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+SN College,Cherthala
+</td><td>
+N/A
+</td><td><p>SL Puram Pokkalassery Road, Kanjikuzhy, S.L.Puram, Mararikulam, Kerala 688523</p></td><td class="phone-links"><p>Email:snccherthala@gmail.com<br>Phone:0478-2864197,2863144,2863148</p></td><td>
+2568
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+SNDP Auditorium Kadambanakulangara
+</td><td>
+N/A
+</td><td><p>Pallippuram P O,Cherthala</p></td><td class="phone-links"><p></p></td><td>
+722
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+SNDP Building , Cherumukham
+</td><td>
+N/A
+</td><td><p>SNDP Building , Cherumukham , Nooranad</p></td><td class="phone-links"><p><a href="tel:8547611714">8547611714</a>,<a href="tel:9446567426">9446567426</a></p></td><td>
+142
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+SNDP Building , Pattoor
+</td><td>
+N/A
+</td><td><p>SNDP Building , Pattoor, Pattoor.P.O , Nooranad</p></td><td class="phone-links"><p><a href="tel:8547611714">8547611714</a>,<a href="tel: 9446567426"> 9446567426</a></p></td><td>
+125
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+SNDP Hall, Chengannur
+</td><td>
+N/A
+</td><td><p>Chengannur, Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+None
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+SNDP Hall ,Muttom II
+</td><td>
+N/A
+</td><td><p>SNDP Hall ,Muttom II,Muttom P O,Harippad</p></td><td class="phone-links"><p><a href="tel:9947671539">9947671539</a></p></td><td>
+200
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+S N D P Hall,Purakkad
+</td><td>
+N/A
+</td><td><p></p></td><td class="phone-links"><p></p></td><td>
+344
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+SNDP Hall Purakkad
+</td><td>
+N/A
+</td><td><p>SNDP Hall Purakkad</p></td><td class="phone-links"><p></p></td><td>
+344
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+SNDP Hall Vandanam
+</td><td>
+N/A
+</td><td><p>Vandanam ,Ambalappuzha , Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+460
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Snehacharya Institute of Hotel Management, Karuvat
+</td><td>
+N/A
+</td><td><p>Karuvatta,Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+None
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+SNM HS 1
+</td><td>
+N/A
+</td><td><p></p></td><td class="phone-links"><p></p></td><td>
+790
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+SNM HS 2
+</td><td>
+N/A
+</td><td><p></p></td><td class="phone-links"><p></p></td><td>
+250
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+SNVLPS, Akkathra
+</td><td>
+N/A
+</td><td><p>KV Jetty Road, Thamallakkal, Haripad, Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+None
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+South L P S Perumbalam
+</td><td>
+N/A
+</td><td><p>Perumbalam P O ,Cherthala</p></td><td class="phone-links"><p></p></td><td>
+170
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Sree Ayyappa College, Eramallikkara
+</td><td>
+N/A
+</td><td><p>Eramallikkara, Chengannur, Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+None
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+SreeBhadra English Medium School Vadakkumkara
+</td><td>
+N/A
+</td><td><p>K R Puram P O,Cherthala</p></td><td class="phone-links"><p></p></td><td>
+308
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Sree Narayana Memorial Govt Boys Higher School
+</td><td>
+N/A
+</td><td><p>Cherthala Rd, Krishnakripa, Cherthala, Kerala 688524</p></td><td class="phone-links"><p><a href="tel:0478 281 3234">0478 281 3234</a></p></td><td>
+112
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Sree Narayana Prathana Samthy,Komalapuram
+</td><td>
+N/A
+</td><td><p>Komalapuram,Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+1478
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Sree Narayanapuram LPS
+</td><td>
+N/A
+</td><td><p>Cherthala</p></td><td class="phone-links"><p></p></td><td>
+14
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Sree Narayana Seva Sangham
+</td><td>
+N/A
+</td><td><p>Sree Narayana Seva Sangham,Ward 13,Poomthoppu,Arya north P.O,Mannancherry ,Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+None
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+SRKV LPS
+</td><td>
+N/A
+</td><td><p>SRKV LPS,Pathiyoor P O,Pathiyoor</p></td><td class="phone-links"><p><a href="tel:9497246546">9497246546</a></p></td><td>
+923
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+SRV School, Angadickal
+</td><td>
+N/A
+</td><td><p>Angadickal, Chengannur, Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+None
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+St. Anne's School, Chengannur
+</td><td>
+N/A
+</td><td><p>Chengannur, Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+None
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+St. Antony's HSS
+</td><td>
+N/A
+</td><td><p>Cherthala</p></td><td class="phone-links"><p></p></td><td>
+25
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+St. Antonys LPS, Mullackal
+</td><td>
+N/A
+</td><td><p>Pazhavangadi Church Rd, Mullakkal, Alappuzha, Kerala 688011</p></td><td class="phone-links"><p></p></td><td>
+372
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+St.Bersoma School , Attuva
+</td><td>
+N/A
+</td><td><p>St.Bersoma School , Attuva , Nooranad</p></td><td class="phone-links"><p><a href="tel:8547611714">8547611714</a></p></td><td>
+125
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+St George Cheriyapally,Arthungal
+</td><td>
+N/A
+</td><td><p>Arthunkal, Kerala 688530</p></td><td class="phone-links"><p>Phone:<a href="tel: 0478 257 2403"> 0478 257 2403</a></p></td><td>
+403
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+St:Joseph's College Alappuzha
+</td><td>
+N/A
+</td><td><p>NH 47, Convent Square, Alappuzha, Kerala 688001</p></td><td class="phone-links"><p><a href="tel:9388787718">9388787718</a><br>Kavitha B<br>Special Thahasildar(NH)<br>Cherthala</p></td><td>
+950
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+St. Mary's HSS, Kallissery
+</td><td>
+N/A
+</td><td><p>Kallissery, Chengannur, Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+None
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+St.mary's LP School Pallippuram
+</td><td>
+N/A
+</td><td><p>Pallippuram P O</p></td><td class="phone-links"><p></p></td><td>
+108
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+St.Mary's L P School Srambickal
+</td><td>
+N/A
+</td><td><p>Thycattussery P O,Srambickal</p></td><td class="phone-links"><p><a href="tel:9249373640 ">9249373640 </a>(volunteer _manju Pushpan)</p></td><td>
+438
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+St Michaels,Cherthala
+</td><td>
+N/A
+</td><td><p>NH 66, 11th Mile, Mayithara, Cherthala, Kerala 688539</p></td><td class="phone-links"><p>Phone:<a href="tel: 0478 282 2387"> 0478 282 2387</a></p></td><td>
+1900
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+St. Michaels HS, Kavil
+</td><td>
+N/A
+</td><td><p>Chethala</p></td><td class="phone-links"><p></p></td><td>
+1015
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+St.Michles Thathampally,Mullackal
+</td><td>
+N/A
+</td><td><p>Mullackal,Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+152
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+St. Theresas HS Manappuram
+</td><td>
+N/A
+</td><td><p>Cherthala , Manappuram P O</p></td><td class="phone-links"><p>Rajendran<a href="tel: 9562904100"> 9562904100</a></p></td><td>
+117
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+St Thomas High School
+</td><td>
+N/A
+</td><td><p></p></td><td class="phone-links"><p><a href="tel:9497777911">9497777911</a></p></td><td>
+500
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+St. Thomas HS, Karthikappally
+</td><td>
+N/A
+</td><td><p>Karthikappally, Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+None
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+SVS Karayogam Hall
+</td><td>
+N/A
+</td><td><p></p></td><td class="phone-links"><p></p></td><td>
+1500
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Tagore Memorial LPS Preethykulagara, Kalavoor
+</td><td>
+N/A
+</td><td><p>Kalavoor ,Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+31
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+TDHS, Mullackal
+</td><td>
+N/A
+</td><td><p>TDHS, Mullackal</p></td><td class="phone-links"><p></p></td><td>
+204
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Temple of English School, Iravukadu
+</td><td>
+N/A
+</td><td><p>Iravukadu</p></td><td class="phone-links"><p></p></td><td>
+366
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Temple of English School, Iravukadu
+</td><td>
+N/A
+</td><td><p>Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+628
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Thaiparambu ,Purakkad
+</td><td>
+N/A
+</td><td><p>Purakkad,Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+600
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Thaliradi anganawady
+</td><td>
+N/A
+</td><td><p>Thaliradi anganawady , Vallikunnam , Alappuzha</p></td><td class="phone-links"><p><a href="tel:9544157165">9544157165</a></p></td><td>
+69
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Thambakachuvadu School, Komalapuram
+</td><td>
+N/A
+</td><td><p>Komalapuram,Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+1332
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Thampachuvadu Govt.U.P School,Mannancherry
+</td><td>
+N/A
+</td><td><p>Thampachuvadu U.P School,North Aryad P.O,Mannancherry grama panchayat,Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+None
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Thayyur (Pakalveedu)
+</td><td>
+N/A
+</td><td><p>Thayyur (Pakalveedu)</p></td><td class="phone-links"><p></p></td><td>
+46
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Thazhathidathukavu NSS Building
+</td><td>
+N/A
+</td><td><p>Thazhathidathukavu NSS Building , Edappon , Nooranad</p></td><td class="phone-links"><p><a href="tel:8547611714">8547611714</a></p></td><td>
+25
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Thazhathuparambu, Mullackal
+</td><td>
+N/A
+</td><td><p>Thazhathuparambu, Mullackal</p></td><td class="phone-links"><p></p></td><td>
+354
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Thevarambalam,Ottappana
+</td><td>
+N/A
+</td><td><p></p></td><td class="phone-links"><p></p></td><td>
+250
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Thiruvambadi HSS
+</td><td>
+N/A
+</td><td><p>Thiruvambadi</p></td><td class="phone-links"><p></p></td><td>
+1226
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Thiruvambadi U.P.S.
+</td><td>
+N/A
+</td><td><p>Thiruvambadi</p></td><td class="phone-links"><p></p></td><td>
+369
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Thiruvilanjal Devi Temple Auditorium
+</td><td>
+N/A
+</td><td><p>Karuvatta, Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+None
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Thonokkadavi illichira
+</td><td>
+N/A
+</td><td><p>Thonikkadavu Illichira,Purakkad</p></td><td class="phone-links"><p></p></td><td>
+71
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Thrichittattu Temple
+</td><td>
+N/A
+</td><td><p>Chengannur, Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+None
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+TKMM School Camp 1 Gurumandiram ward
+</td><td>
+N/A
+</td><td><p></p></td><td class="phone-links"><p></p></td><td>
+53
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+TKMM School Camp 2, Kuthirapanthy
+</td><td>
+N/A
+</td><td><p>TKMM School Camp 2, Kuthirapanthy</p></td><td class="phone-links"><p></p></td><td>
+138
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+T.M.A. Auditorium, Valiyakulam
+</td><td>
+N/A
+</td><td><p>Valiyakulam</p></td><td class="phone-links"><p></p></td><td>
+659
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+UPS Kuttemperoor
+</td><td>
+N/A
+</td><td><p>UPS Kuttemperoor</p></td><td class="phone-links"><p></p></td><td>
+81
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+UPS Thiruvampadi
+</td><td>
+N/A
+</td><td><p>THIRUVAMBADY U P SCHOOL PAZHAVEEDU AMBALAPPUZHA ALAPPUZHA KERALA 688009</p></td><td class="phone-links"><p></p></td><td>
+369
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Vadasserippalli, Mullackal
+</td><td>
+N/A
+</td><td><p>Vadasserippalli, Mullackal</p></td><td class="phone-links"><p></p></td><td>
+453
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Vadikadu Govt L P S,Aryad
+</td><td>
+N/A
+</td><td><p>Aryad South</p></td><td class="phone-links"><p></p></td><td>
+1142
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Valamangalam SCHSS (Nedugathara)
+</td><td>
+N/A
+</td><td><p>Cherthala</p></td><td class="phone-links"><p></p></td><td>
+88
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Vandikappally Hidyath ul Islam Cenre
+</td><td>
+N/A
+</td><td><p>Vandikappally Hidyath ul Islam Cenre,Karthikappally P O,Chigoli</p></td><td class="phone-links"><p><a href="tel:9497777911">9497777911</a></p></td><td>
+80
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Vanitha S N D P
+</td><td>
+N/A
+</td><td><p>Vanitha S N D P</p></td><td class="phone-links"><p></p></td><td>
+240
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Varuthakuttichira, Mullackal
+</td><td>
+N/A
+</td><td><p>Varuthakuttichira, Mullackal</p></td><td class="phone-links"><p></p></td><td>
+537
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Vayalar Rama Varma HSS
+</td><td>
+N/A
+</td><td><p>Vayalar, Cherthala</p></td><td class="phone-links"><p></p></td><td>
+144
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Veerashaiva Building , Edappon
+</td><td>
+N/A
+</td><td><p>Veerashaiva Building , Edappon , Nooranad</p></td><td class="phone-links"><p><a href="tel:8547611714 ">8547611714 </a>,<a href="tel: 9446567426"> 9446567426</a></p></td><td>
+50
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Veerashaiva School , Attuva
+</td><td>
+N/A
+</td><td><p>Veerashaiva School , Attuva , Nooranad</p></td><td class="phone-links"><p><a href="tel:8547611714 ">8547611714 </a>,<a href="tel: 9446567426"> 9446567426</a></p></td><td>
+200
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Veluparambu
+</td><td>
+N/A
+</td><td><p></p></td><td class="phone-links"><p></p></td><td>
+425
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Vettakkal
+</td><td>
+N/A
+</td><td><p></p></td><td class="phone-links"><p></p></td><td>
+225
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Vidhyadhiraja school
+</td><td>
+N/A
+</td><td><p>Ponnaramthottam,m mavelikara</p></td><td class="phone-links"><p><a href="tel:9846971636 ">9846971636 </a>Mukesh,<a href="tel:9946417315 ">9946417315 </a>asokan,<a href="tel:9947735805 ">9947735805 </a>suresh</p></td><td>
+86
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Vimal Bhavan
+</td><td>
+N/A
+</td><td><p></p></td><td class="phone-links"><p></p></td><td>
+225
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Viswakarma Hall, Chengannur
+</td><td>
+N/A
+</td><td><p>Chengannur, Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+None
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Ward Atarting Point, Mullackal
+</td><td>
+N/A
+</td><td><p>Ward Atarting Point, Mullackal</p></td><td class="phone-links"><p></p></td><td>
+297
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Welfare LPS Kanjirathummmoodu
+</td><td>
+N/A
+</td><td><p>Welfare LPS Kanjirathummmoodu , Vallikunnam , Alappuzha</p></td><td class="phone-links"><p><a href="tel:9744170256">9744170256</a></p></td><td>
+60
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+YMCA, Chegannur
+</td><td>
+N/A
+</td><td><p>Chengannur, Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+None
+</td></tr><tr valign="top"><td><strong>Alappuzha - ആലപ്പുഴ</strong></td><td>
+Zion LPS, Karuvatta
+</td><td>
+N/A
+</td><td><p>Karuvatta, Alappuzha</p></td><td class="phone-links"><p></p></td><td>
+34
+</td></tr></tbody></table></div>
+
+
+
+
+<script type="text/javascript">
+  window.onload = function() {
+    $('.phone-links').each(function () {
+      var content = $(this).html();
+      // Convert 10 digit numbers to links
+      links = content.replace(/[0-9 ]{10,15}/g, "<a href=\"tel:$&\">$&</a>");
+      $(this).html(links);
+    })
+
+    $("#id_district").change(() => {
+      $("#relief-comps-form").submit();
+    })
+  }
+
+</script>
+
+
+
+
+
+
+
+
+</body>
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
